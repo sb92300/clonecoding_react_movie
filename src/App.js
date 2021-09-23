@@ -34,7 +34,7 @@ function App(){
         </div>
 
       : <div className="movies">
-        <header className="web_header">MOVIE</header>
+        <header className="web_header">BINFLEX</header>
           <div className="movie_container">
             {movies.map(movie => (
               <Movie 
@@ -53,7 +53,7 @@ function App(){
           }
           </div>
           <div className="movies_footer">
-            footer
+              designed by : S . B Kim
           </div>
         </div>}
     </div>

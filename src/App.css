@@ -19,6 +19,11 @@
     margin : 0 auto;
     background-color:#2f2f2f;
 }
+.web_header {
+    font-size: 3rem;
+    font-weight: 550;
+    color: red;
+}
 .web_header, .movies_footer {
     width: 100%;
     height: 100px;
@@ -26,10 +31,10 @@
     align-items: center;
     justify-content: center;
     background-color: #1f1e1e;
-    color: white;
 }
 .movies_footer {
     margin-top: 20px;
+    color: white;
 }
 .movie {
     display: flex;
@@ -87,5 +92,7 @@
     width: 100%;
     height: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
+/* click 시 영화 소개 창 summary 들어간 거, + 뒷 배경 opacity 하기  */
